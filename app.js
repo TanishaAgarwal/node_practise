@@ -6,7 +6,7 @@ var todoController = require('./controller/todoController');
 app.set('view engine','ejs');
 
 //static files
-app.use('/assets',express.static('./public'));
+app.use(express.static('./public'));
 
 //fire controller
 todoController(app);
