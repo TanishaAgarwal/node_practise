@@ -1,5 +1,5 @@
 {
-  "name": "todo",
+  "name": "Todo",
   "version": "1.0.0",
   "description": "a little todo app",
   "main": "app.js",
